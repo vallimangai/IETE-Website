@@ -395,7 +395,7 @@ main .events{
 }
 
 main .event-content{
-    width:100%;
+    width:77%;
     margin-bottom: 2rem;
     border-style: solid;
     background-color:#F0F3F4 ;
@@ -404,6 +404,21 @@ main .event-content{
     padding:.5rem;
     box-shadow: 0 15px 20px rgba(0,0,0,20);
     transition:  all 1s ease;
+}
+@media(max-width:765px){
+    main .event-content{
+    width:100%;
+   
+    }
+    .events{
+        padding: 0 0 0 0!important;
+    }
+    .event-content{
+        margin-right: 0px!important;
+        right:10px;
+        position: relative;
+    }
+
 }
 main .event-content:hover{
     transform: scale(1.1);
@@ -473,9 +488,19 @@ main .team1 .team-members{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 80%;
+    width: 78%;
     margin: 3rem 2rem;
     box-shadow: 0 15px 20px rgba(0,0,0,20);
+}
+@media(max-width:765px){
+    main .team1 .team-members{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin: 3rem 0;
+    box-shadow: 0 15px 20px rgba(0,0,0,20);
+}
 }
 
 .team .container .team1 .team-members img{
