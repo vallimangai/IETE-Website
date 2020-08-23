@@ -446,7 +446,8 @@ main .events .event-content > .post-image .img:hover{
     border-radius: 0;
     margin: .2rem;
     padding: .7rem .5rem;
-    background: #E3CEEC;
+    background: rgb(94, 54, 206);
+    color: white;
 }
 .events .event-content .post-title {
     text-align:center;
