@@ -59,7 +59,7 @@ button.btn{
     border-radius: 2rem;
     padding: 1rem 3rem;
     font-size: 1rem;
-    font-family: var(--Livvic);
+    font-family: 'Poppins', sans-serif;
     cursor: pointer;
 
 
@@ -186,7 +186,7 @@ li.current a{
 
 /*----------------Site title-------------------*/
 main .site-title{
-    background:url('../asset/BGW.jpg');
+    background:url('../asset/group_image.jpg');
     background-size: cover;
     height:110vh;
     -webkit-background-size:cover ;
